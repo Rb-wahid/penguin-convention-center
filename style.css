@@ -13,9 +13,20 @@
   font-weight: 500;
   color: var(--my-color-gray);
 }
-.my-nav-title {
+.my-title {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 22px;
   color: var(--my-color-gray);
+}
+
+.my-btn {
+    border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #3f87f5;
+  background-color: white;
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 10px 43px;
 }
