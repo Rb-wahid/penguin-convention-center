@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@400;500;600;700&family=Roboto:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@400;500;600;700&family=Roboto:wght@700&display=swap");
 
 :root {
   --my-color-gray: #3e3e3e;
@@ -74,18 +74,23 @@
   margin-bottom: 40px;
 }
 
-.my-accordion-title{
-font-family: 'Inter', sans-serif;
-font-weight: 500;
-font-size: 20px;
-color: #383838;
-padding: 20px 24px;
-margin: 8px 0;
+.my-accordion-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #383838;
+  padding: 20px 24px;
+  margin: 8px 0;
 }
 
-.my-accordion-text{
-font-family: 'Inter', sans-serif;
-font-weight: normal;
-font-size: 16px;
-color: #7E848C;
+.my-accordion-text {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: #7e848c;
+}
+
+.my-footer-bg {
+  background: #0b0d17;
+  color: #d9dbe1;
 }
