@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@700&display=swap");
 
 :root {
   --my-color-gray: #3e3e3e;
@@ -21,7 +21,7 @@
 }
 
 .my-btn {
-    border: none;
+  border: none;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   color: #3f87f5;
@@ -29,4 +29,48 @@
   border-radius: 5px;
   text-transform: uppercase;
   padding: 10px 43px;
+}
+
+.my-section-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 38px;
+  color: #222221;
+}
+
+.my-price {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  color: #231d4f;
+}
+
+.my-card-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  color: #231d4f;
+}
+
+.my-card-details {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  color: #848199;
+}
+
+.my-plan-btn {
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #3f87f5;
+  /* font-size: 15px;
+  line-height: 18px; */
+  text-align: center;
+  background-color: rgba(244, 150, 209, 0.1);
+  border-radius: 24px;
+
+  padding: 14px 62px;
+  margin-top: 24px;
+  margin-bottom: 40px;
 }
