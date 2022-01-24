@@ -8,6 +8,11 @@
   background: #e5e5e5;
 }
 
+.my-card-body {
+  background: #ffffff;
+  border-radius: 26px;
+}
+
 .my-fw-medium {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -37,6 +42,8 @@
   font-size: 38px;
   color: #222221;
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .my-price {
@@ -93,4 +100,58 @@
 .my-footer-bg {
   background: #0b0d17;
   color: #d9dbe1;
+}
+
+.my-special-card {
+  height: 420px;
+  /* padding-top: 0px; */
+  /* padding-bottom: 42px; */
+  background: #3f87f5;
+  box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+  border-radius: 26px;
+}
+
+.my-special-price {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  color: white;
+  margin-top: 20px;
+  line-height: 36px;
+}
+
+.my-special-card-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  color: white;
+  margin-top: 20px;
+  line-height: 26px;
+}
+
+.my-special-card-details {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  color: white;
+  margin-top: 15px;
+  line-height: 22px;
+}
+
+.my-special-btn {
+  border: none;
+  background: #ffffff;
+  border-radius: 24px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 14px 74px;
+  text-align: center;
+
+  color: #3f87f5;
+  margin-top: 24px;
+}
+
+.my-special-sm-h {
+  top: 50px;
 }
