@@ -8,9 +8,36 @@
   background: #e5e5e5;
 }
 
+
+
+@media (min-width: 1200px) {
+  .my-carousel {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+ 
+  .my-container {
+    width: 88%;
+    margin: 0 auto;
+  }
+
+  .my-special-sm-h,
+  .my-special-card {
+    padding: 15px;
+  }
+
+  .my-accordian-container{
+  display: flex;
+  flex-direction: column;
+}
+
+}
+
 .my-card-body {
   background: #ffffff;
-  border-radius: 26px;
+  border-radius: 15px;
 }
 
 .my-fw-medium {
@@ -104,8 +131,6 @@
 
 .my-special-card {
   height: 420px;
-  /* padding-top: 0px; */
-  /* padding-bottom: 42px; */
   background: #3f87f5;
   box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
   border-radius: 26px;

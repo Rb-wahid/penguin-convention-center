@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dhaka Convention center</title>
+    <title>Panda Convention center</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
@@ -20,7 +20,7 @@
         <div class="container">
           <div class="left-side">
             <a class="navbar-brand fw-bold my-title" href="#"
-              >Dhaka Convention center</a
+              >Panda Convention center</a
             >
           </div>
           <button
@@ -58,7 +58,7 @@
       </nav>
 
       <!-- Carousel Section -->
-      <section>
+      <section class="">
         <div
           id="carouselExampleCaptions"
           class="carousel slide"
@@ -90,15 +90,16 @@
             <div class="carousel-item active">
               <img
                 src="./images/banner.png"
-                class="d-lg-block w-100"
+                class="d-lg-block my-carousel"
                 alt="..."
               />
               <div class="carousel-caption d-md-block mb-lg-5 pb-lg-2">
                 <h1 class="fw-bold">The perfect venue for your</h1>
                 <h1>next event</h1>
                 <p>
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit
+                  The perfect event, a wedding, milestone birthday or the
+                  corporate function you have wanted to plan since you started
+                  at your job.
                 </p>
                 <button class="my-btn">Book now</button>
               </div>
@@ -150,11 +151,11 @@
       </section>
     </header>
 
-    <main>
+    <main class="my-container">
       <!-- Price section -->
       <section class="my-5 container">
         <h1 class="my-section-title text-center">Our package</h1>
-        <div class="my-5">
+        <div class="">
           <div class="row row-cols-1 row-cols-lg-4 g-4">
             <div class="col">
               <div class="card my-special-sm-h my-card-body">
@@ -206,7 +207,7 @@
               </div>
             </div>
 
-            <div class="col">
+            <div class="col pb-5">
               <div class="card my-special-sm-h my-card-body">
                 <div class="card-body">
                   <div class="card-title">
@@ -256,7 +257,7 @@
               </div>
             </div>
 
-            <div class="col">
+            <div class="col mt-4">
               <div class="card my-special-card">
                 <!-- Badge -->
                 <div class="position-relative">
@@ -315,9 +316,30 @@
               </div>
             </div>
 
-            <div class="col ">
+            <div class="col">
+              <!-- Toast -->
+              <div
+                class="toast show align-items-center"
+                role="alert"
+                aria-live="assertive"
+                aria-atomic="true"
+              >
+                <div class="d-flex border-start border-primary border-5">
+                  <div class="toast-body d-flex align-items-center">
+                    <img class="pe-2" src="./icons/Vector.svg" alt="" />
+                    20% off on next booking
+                  </div>
+                  <button
+                    type="button"
+                    class="btn-close me-2 m-auto"
+                    data-bs-dismiss="toast"
+                    aria-label="Close"
+                  ></button>
+                </div>
+              </div>
+
               <div class="card my-special-sm-h my-card-body">
-                <div class="card-body ">
+                <div class="card-body">
                   <div class="card-title">
                     <h1 class="my-price">$300</h1>
                     <h1 class="my-card-title">Business fair</h1>
@@ -369,9 +391,9 @@
       </section>
 
       <!-- Learn More Section -->
-      <section class="my-lg-5 pt-lg-5">
+      <section class="my-lg-5 py-5">
         <div class="container">
-          <h2 class="my-section-title">Learn More</h2>
+          <h2 class="my-section-title pb-5">Learn More</h2>
           <div class="row row-cols-1 row-cols-lg-3 g-4">
             <div class="col">
               <div class="card shadow">
@@ -424,8 +446,8 @@
 
       <!-- Accodion Plus Image Section -->
       <section class="container">
-        <h4 class="my-section-title">Frequently Asked Questions</h4>
-        <div class="row row-cols-lg-2 mt-lg-5">
+        <h4 class="my-section-title py-5">Frequently Asked Questions</h4>
+        <div class="row row-cols-lg-2 mt-lg-5 my-accordian-container">
           <div class="col">
             <!-- Accodial -->
             <div class="accordion" id="accordionExample">
@@ -551,8 +573,8 @@
 
             <!-- Accodian end -->
           </div>
-          <div class="col pt-4">
-            <img src="./images/people.png" alt="" />
+          <div class="col pt-5">
+            <img class="img-fluid" src="./images/people.png" alt="" />
           </div>
         </div>
       </section>
