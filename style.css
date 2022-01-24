@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@400;500;600;700&family=Roboto:wght@700&display=swap');
 
 :root {
   --my-color-gray: #3e3e3e;
@@ -36,6 +36,7 @@
   font-weight: 600;
   font-size: 38px;
   color: #222221;
+  text-align: center;
 }
 
 .my-price {
@@ -64,8 +65,6 @@
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   color: #3f87f5;
-  /* font-size: 15px;
-  line-height: 18px; */
   text-align: center;
   background-color: rgba(244, 150, 209, 0.1);
   border-radius: 24px;
@@ -73,4 +72,20 @@
   padding: 14px 62px;
   margin-top: 24px;
   margin-bottom: 40px;
+}
+
+.my-accordion-title{
+font-family: 'Inter', sans-serif;
+font-weight: 500;
+font-size: 20px;
+color: #383838;
+padding: 20px 24px;
+margin: 8px 0;
+}
+
+.my-accordion-text{
+font-family: 'Inter', sans-serif;
+font-weight: normal;
+font-size: 16px;
+color: #7E848C;
 }
