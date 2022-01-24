@@ -1,182 +1,183 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@400;500;600;700&family=Roboto:wght@700&display=swap");
 
 :root {
-  --my-color-gray: #3e3e3e;
+    --my-color-gray: #3e3e3e;
+    --my-primary-font: "Poppins", sans-serif;
 }
 
 .my-bg-body {
-  background: #e5e5e5;
+    background: #e5e5e5;
 }
 
-
-
 @media (min-width: 1200px) {
-  .my-carousel {
-    width: 100%;
-  }
+    .my-carousel {
+        width: 100%;
+    }
 }
 
 @media (max-width: 600px) {
- 
-  .my-container {
-    width: 88%;
-    margin: 0 auto;
-  }
+    .carousel-indicators {
+        margin-bottom: 3px;
+    }
+    .my-container {
+        width: 88%;
+        margin: 0 auto;
+    }
 
-  .my-special-sm-h,
-  .my-special-card {
-    padding: 15px;
-  }
+    .my-special-sm-h,
+    .my-special-card {
+        padding: 15px;
+    }
 
-  .my-accordian-container{
-  display: flex;
-  flex-direction: column;
-}
-
+    .my-accordian-container {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .my-card-body {
-  background: #ffffff;
-  border-radius: 15px;
+    background: #ffffff;
+    border-radius: 15px;
 }
 
 .my-fw-medium {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  color: var(--my-color-gray);
+    font-family: var(--my-primary-font);
+    font-weight: 500;
+    color: var(--my-color-gray);
 }
 .my-title {
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-  font-size: 22px;
-  color: var(--my-color-gray);
+    font-family: var(--my-primary-font);
+    font-weight: bold;
+    font-size: 22px;
+    color: var(--my-color-gray);
 }
 
 .my-btn {
-  border: none;
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-  color: #3f87f5;
-  background-color: white;
-  border-radius: 5px;
-  text-transform: uppercase;
-  padding: 10px 43px;
+    border: none;
+    text-decoration: none;
+    font-family: var(--my-primary-font);
+    font-weight: bold;
+    color: #3f87f5;
+    background-color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 10px 43px;
 }
 
 .my-section-title {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 38px;
-  color: #222221;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+    font-family: var(--my-primary-font);
+    font-weight: 600;
+    font-size: 38px;
+    color: #222221;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .my-price {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  font-size: 36px;
-  color: #231d4f;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #231d4f;
 }
 
 .my-card-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  font-size: 28px;
-  color: #231d4f;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: #231d4f;
 }
 
 .my-card-details {
-  font-family: "Poppins", sans-serif;
-  font-weight: normal;
-  font-size: 15px;
-  color: #848199;
+    font-family: var(--my-primary-font);
+    font-weight: normal;
+    font-size: 15px;
+    color: #848199;
 }
 
 .my-plan-btn {
-  border: none;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  color: #3f87f5;
-  text-align: center;
-  background-color: rgba(244, 150, 209, 0.1);
-  border-radius: 24px;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: #3f87f5;
+    text-align: center;
+    background-color: rgba(244, 150, 209, 0.1);
+    border-radius: 24px;
 
-  padding: 14px 62px;
-  margin-top: 24px;
-  margin-bottom: 40px;
+    padding: 14px 62px;
+    margin-top: 24px;
+    margin-bottom: 40px;
 }
 
 .my-accordion-title {
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  color: #383838;
-  padding: 20px 24px;
-  margin: 8px 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #383838;
+    padding: 20px 24px;
+    margin: 8px 0;
 }
 
 .my-accordion-text {
-  font-family: "Inter", sans-serif;
-  font-weight: normal;
-  font-size: 16px;
-  color: #7e848c;
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #7e848c;
 }
 
 .my-footer-bg {
-  background: #0b0d17;
-  color: #d9dbe1;
+    background: #0b0d17;
+    color: #d9dbe1;
 }
 
 .my-special-card {
-  height: 420px;
-  background: #3f87f5;
-  box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
-  border-radius: 26px;
+    height: 420px;
+    background: #3f87f5;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+    border-radius: 26px;
 }
 
 .my-special-price {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  font-size: 36px;
-  color: white;
-  margin-top: 20px;
-  line-height: 36px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    margin-top: 20px;
+    line-height: 36px;
 }
 
 .my-special-card-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  font-size: 28px;
-  color: white;
-  margin-top: 20px;
-  line-height: 26px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: white;
+    margin-top: 20px;
+    line-height: 26px;
 }
 
 .my-special-card-details {
-  font-family: "Poppins", sans-serif;
-  font-weight: normal;
-  font-size: 15px;
-  color: white;
-  margin-top: 15px;
-  line-height: 22px;
+    font-family: var(--my-primary-font);
+    font-weight: normal;
+    font-size: 15px;
+    color: white;
+    margin-top: 15px;
+    line-height: 22px;
 }
 
 .my-special-btn {
-  border: none;
-  background: #ffffff;
-  border-radius: 24px;
-  font-family: Roboto;
-  font-weight: bold;
-  font-size: 15px;
-  padding: 14px 74px;
-  text-align: center;
+    border: none;
+    background: #ffffff;
+    border-radius: 24px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 14px 74px;
+    text-align: center;
 
-  color: #3f87f5;
-  margin-top: 24px;
+    color: #3f87f5;
+    margin-top: 24px;
 }
 
 .my-special-sm-h {
-  top: 50px;
+    top: 50px;
 }
